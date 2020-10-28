@@ -1,0 +1,217 @@
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  background-color: purple;
+  margin: 1rem auto;
+  font-size: 2rem;
+  border-radius: 10rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.btn-purple {
+  background-color: #800080;
+  color: black;
+}
+
+.btn-purple::after {
+  background-color: #800080;
+  color: black;
+}
+
+.btn:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.6);
+          box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.6);
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn:hover::after {
+  -webkit-transform: scaleX(1.5) scaleY(1.6);
+          transform: scaleX(1.5) scaleY(1.6);
+  opacity: 0;
+}
+
+.btn:active {
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+  -webkit-transform: scaleX(1.5) scaleY(1.6);
+          transform: scaleX(1.5) scaleY(1.6);
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.worm {
+  height: 20rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 50%;
+}
+
+.worm:hover {
+  border-radius: 0;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-filter: drop-shadow(20px 20px 20px #572b2b);
+          filter: drop-shadow(20px 20px 20px #572b2b);
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.text-effect {
+  background-image: url(./media/backgroundimage.jpg);
+  background-position: center;
+  color: transparent;
+  font-size: 8rem;
+  -webkit-background-clip: text;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.text-effect:hover {
+  -webkit-transform: skewX(-10deg);
+          transform: skewX(-10deg);
+  letter-spacing: 3rem;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.beef {
+  height: 30rem;
+  position: relative;
+}
+
+.beef-picture {
+  height: 30rem;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.beef-header {
+  font-size: 3rem;
+  opacity: 0;
+  color: white;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-transform: uppercase;
+}
+
+.beef:hover .beef-picture {
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
+}
+
+.beef:hover .beef-header {
+  opacity: 1;
+  top: 50%;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.colorbox {
+  background-color: yellow;
+  padding: 10rem;
+}
+
+.colorbox:hover {
+  -webkit-filter: hue-rotate(90deg);
+          filter: hue-rotate(90deg);
+  -webkit-transition: -webkit-filter 0.7s ease-in-out;
+  transition: -webkit-filter 0.7s ease-in-out;
+  transition: filter 0.7s ease-in-out;
+  transition: filter 0.7s ease-in-out, -webkit-filter 0.7s ease-in-out;
+}
+
+.container {
+  width: 80vw;
+  margin: 2rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1rem;
+  font-size: 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

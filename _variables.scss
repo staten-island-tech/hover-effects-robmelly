@@ -1,0 +1,17 @@
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+$colors: (
+  purple: #800080,
+  black: #000000,
+  red: #ff5722,
+  blue: #00b0ff,
+);
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
